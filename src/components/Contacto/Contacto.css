@@ -67,3 +67,10 @@
   text-transform: uppercase;
   border: 2px solid #cdb490;
 }
+
+@media screen and (max-width: 1150px) {
+  .contactoContainer {
+    width: 90%;
+    padding: 30px 40px;
+  }
+}

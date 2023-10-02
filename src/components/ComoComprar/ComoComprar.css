@@ -1,4 +1,5 @@
 .comprarSection {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +20,7 @@
   background: #e2e4e9;
 }
 .comprarSection .titleComprar h5 {
+  text-align: center;
   color: #4c5367;
   font-size: 18px;
   font-weight: 600;
