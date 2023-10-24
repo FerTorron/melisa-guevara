@@ -12,15 +12,24 @@
   line-height: 48px;
   text-transform: uppercase;
 }
-.cardNovedadesContainer {
+/* .cardNovedadesContainer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 32px;
   flex-wrap: wrap;
+} */
+.cardNovedadesContainer {
+  width: 80%;
+  display: flex;
+  gap: 32px;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 .cardNovedadesContainer .cardNovedades {
   display: flex;
+  margin-bottom: 15px;
+  flex: 0 0 auto;
   width: 373px;
   padding: 24px;
   flex-direction: column;

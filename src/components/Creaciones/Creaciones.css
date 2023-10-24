@@ -6,13 +6,27 @@
   flex-direction: column;
   gap: 40px;
 }
-.creacionesSection h3 {
+.creacionesTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.creacionesTitle h3 {
   color: #21242c;
   text-align: center;
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
   text-transform: uppercase;
+}
+.creacionesTitle p {
+  color: #21242c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 .creacionesSection a {
   padding: 12px 24px;
@@ -33,41 +47,37 @@
   flex-wrap: wrap;
 }
 .itemCreacion {
-  width: 272px;
   display: flex;
+  width: 272px;
+  height: 340px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 24px;
-  background: #fff;
-  box-shadow: 0px 5.2px 8.125px 0px rgba(209, 145, 73, 0.08),
-    0px 26px 50px 0px rgba(209, 145, 73, 0.15);
-  overflow: hidden;
+  align-items: flex-start;
+  gap: 16px;
 }
 .itemCreacion img {
   width: 272px;
-  height: 200px;
+  height: 256px;
+  flex-shrink: 0;
 }
 .itemCreacion .txtItem {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 272px;
+  padding-right: 0px;
   flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
-  padding: 24px;
 }
 .itemCreacion .txtItem h4 {
   color: #21242c;
-  text-align: center;
   font-size: 16px;
+  font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 .itemCreacion .txtItem p {
   color: #4c5367;
-  text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0.5px;
+  padding-right: 32px;
+  line-height: 18px;
 }

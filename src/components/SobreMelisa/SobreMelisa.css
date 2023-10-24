@@ -1,67 +1,56 @@
 .sobreMelisa {
   display: flex;
   width: 80%;
-  padding: 48px;
-  flex-direction: column;
+  padding: 80px;
+  justify-content: center;
   align-items: center;
   gap: 48px;
   border-radius: 40px;
   background: #f5e9d6;
 }
+.sobreMelisa img {
+  width: 288px;
+  height: 273px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: top;
+}
 .txtMelisa {
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
 }
 .txtMelisa h2 {
   color: #101928;
-  text-align: center;
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
   text-transform: uppercase;
 }
 .txtMelisa p {
-  color: #4c5367;
-  text-align: center;
+  color: #000;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-
-.cardsContainer {
-  width: 100%;
+.txtMelisa p b {
+  font-weight: 500;
+}
+.txtMelisa a {
   display: flex;
+  padding: 12px 24px;
   justify-content: center;
-  align-items: flex-start;
-  gap: 48px;
-  align-self: stretch;
-}
-.cardsContainer .cardMelisa {
-  width: 50%;
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
   align-items: center;
-  gap: 24px;
-  border-radius: 24px;
-  background: var(--interfaz-terciario, #fdfaf6);
-  box-shadow: 0px 10px 30px 0px rgba(162, 182, 212, 0.15);
-}
-.cardsContainer .cardMelisa h6 {
-  color: #21242c;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 27px;
-  text-transform: uppercase;
-}
-.cardsContainer .cardMelisa p {
-  color: #4c5367;
-  text-align: center;
+  gap: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #c0a072;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
 }
