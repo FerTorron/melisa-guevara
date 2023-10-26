@@ -29,7 +29,7 @@ footer {
 footer hr {
   width: 100%;
   height: 1px;
-  background: #cdb490;
+  background: #575f75;
   border: 0px;
 }
 footer p {
@@ -38,11 +38,15 @@ footer p {
   font-weight: 400;
   line-height: 18px;
 }
+#contactFooter {
+  font-size: 16px;
+  line-height: 24px;
+}
 .topFooter .contactInfo span {
   color: #f0dec2;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 18px;
   opacity: 0.94;
 }
 .contactInfo hr {
@@ -64,7 +68,9 @@ footer p {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: #fff;
+  background: #f0dec2;
+  transition: all 300ms;
+  cursor: pointer;
 }
 .iconContact img {
   width: 24px;
@@ -87,6 +93,39 @@ footer p {
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0.5px;
+}
+
+.iconContact:hover svg g path,
+.iconContact:hover svg g rect,
+.iconContact:hover svg g circle {
+  stroke: #fff;
+}
+.iconContactMail:hover {
+  background-color: #ed8b30;
+}
+.iconContactMail img:hover svg g path {
+  background-color: red;
+}
+.iconContactWsp:hover #Vector_2 {
+  fill: #fff;
+}
+.iconContactWsp:hover {
+  background-color: #00d95f;
+}
+.iconContactIg:hover {
+  background: linear-gradient(
+    135deg,
+    #604ee7 0%,
+    #b438b0 29.69%,
+    #f65176 68.23%,
+    #fccc63 100%
+  );
+}
+.iconContactFc:hover svg g path {
+  fill: #fff;
+}
+.iconContactFc:hover {
+  background-color: #3b5998;
 }
 
 @media screen and (max-width: 1150px) {

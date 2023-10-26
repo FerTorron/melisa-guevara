@@ -30,7 +30,7 @@ const Novedades = () => {
                 </div>
 
                 <div className="cardNovedades">
-                    <img src="/img/desfile.png" alt="Universo Mola 2023" />
+                    <iframe width="325" height="218" src="https://www.youtube.com/embed/XQ-xsVMKJXs?si=W78ZKjsHQLePeq6U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <div className="txtNovedades">
                         <span>Vídeo</span>
                         <p>La Guía Industrial</p>

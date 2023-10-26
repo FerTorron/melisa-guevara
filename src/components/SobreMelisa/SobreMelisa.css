@@ -4,20 +4,18 @@
   padding: 80px;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 32px;
   border-radius: 40px;
-  background: #f5e9d6;
 }
 .sobreMelisa img {
-  width: 288px;
-  height: 273px;
+  width: 272.014px;
+  height: 300px;
   flex-shrink: 0;
   border-radius: 20px;
   object-fit: cover;
   object-position: top;
 }
 .txtMelisa {
-  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,9 +35,6 @@
   font-weight: 400;
   line-height: 24px;
 }
-.txtMelisa p b {
-  font-weight: 500;
-}
 .txtMelisa a {
   display: flex;
   padding: 12px 24px;
@@ -48,9 +43,53 @@
   gap: 10px;
   text-decoration: none;
   border-radius: 8px;
-  background: #fff;
   color: #c0a072;
+  border: 1px solid #cdb490;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  outline: 2px solid transparent;
+  transition: all 300ms;
+}
+.txtMelisa a:hover {
+  outline: 2px solid #cdb490;
+}
+
+@media screen and (max-width: 1150px) {
+  .sobreMelisa {
+    padding: 0 67px;
+    width: 90%;
+  }
+  .txtMelisaResponsive {
+    display: none;
+  }
+  .txtMelisa {
+    gap: 16px;
+    align-items: center;
+  }
+  .txtMelisa img {
+    width: 104.637px;
+    height: 104.637px;
+    border-radius: 81px;
+  }
+  .txtMelisa h2 {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .txtMelisa p {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .txtMelisa a {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .txtMelisa a:hover {
+    outline: 2px solid #cdb490;
+  }
 }

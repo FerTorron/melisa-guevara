@@ -31,7 +31,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 56px;
 }
 .itemListComprar {
@@ -75,4 +74,55 @@
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1150px) {
+  .comprarSection .titleComprar {
+    width: 90%;
+  }
+  .comprarSection .titleComprar hr {
+    width: 109px;
+    height: 1px;
+  }
+  .comprarSection .titleComprar h5 {
+    width: 45%;
+    text-align: center;
+    color: #21242c;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+
+  .listComprar {
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    align-items: normal;
+    justify-content: normal;
+  }
+  .itemListComprar {
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    margin-bottom: 15px;
+  }
+  .itemListComprar .txtListComprar h5 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .itemListComprar .txtListComprar p {
+    font-size: 12px;
+    line-height: 18px;
+    width: fit-content;
+    white-space: normal;
+  }
+
+  .itemListComprar .iconItem {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+  .itemListComprar .iconItem img {
+    width: 20px;
+  }
 }

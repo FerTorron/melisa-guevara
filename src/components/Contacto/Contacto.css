@@ -7,7 +7,7 @@
   justify-content: center;
   gap: 24px;
   border-radius: 24px;
-  background: var(--interfaz-blanco, #fff);
+  background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(162, 182, 212, 0.15);
 }
 .contactoContainer h2 {
@@ -72,5 +72,23 @@
   .contactoContainer {
     width: 90%;
     padding: 30px 40px;
+  }
+  .contactoContainer h2 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .contactoContainer form input {
+    height: 31px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .contactoContainer form textarea {
+    height: 127px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .contactoContainer form button {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
