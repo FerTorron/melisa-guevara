@@ -53,11 +53,11 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   float: none;
-  /* padding-bottom: 5px; */
+  border-bottom: 1px solid transparent;
+  transition: all 300ms;
 }
 header nav ul li:hover {
   border-bottom: 1px solid #21242c;
-  margin-bottom: -1px;
 }
 header nav ul li:nth-child(3) {
   margin-right: 130px;
@@ -94,6 +94,10 @@ header nav ul li a {
   .menuBtn {
     display: flex;
   }
+  .ul-nav-mod {
+    padding: 30px;
+    align-items: flex-start;
+  }
   header {
     height: 90px;
     align-items: center;
@@ -115,6 +119,7 @@ header nav ul li a {
     padding: 30px;
     align-items: flex-start;
     flex-direction: column;
+    text-align: left;
   }
   .navResponsive {
     left: 0;

@@ -126,3 +126,9 @@
     width: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .listComprar {
+    width: 76%;
+  }
+}
