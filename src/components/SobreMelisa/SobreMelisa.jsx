@@ -38,7 +38,7 @@ const SobreMelisa = () => {
 
     };
     return (
-        <div className='sobreMelisa'>
+        <div id='melisa' className='sobreMelisa'>
             {mostrarImagen()}
             <div className="txtMelisa">
                 <h2>Sobre Melisa Guevara</h2>

@@ -2,7 +2,7 @@ import './Creaciones.css'
 
 const Creaciones = () => {
     return (
-        <div className='creacionesSection'>
+        <div id='creaciones' className='creacionesSection'>
             <div className="creacionesTitle">
                 <h3>Exclusivas</h3>
                 <p>Nuestras joyas son únicas y las creamos especialmente para ti</p>

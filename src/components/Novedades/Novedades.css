@@ -35,6 +35,9 @@
   background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(162, 182, 212, 0.15);
 }
+.cardNovedades a {
+  text-decoration: none;
+}
 .cardNovedadesContainer .cardNovedades img {
   width: 100%;
   height: 218px;
@@ -69,6 +72,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .novedadesContainer h2 {
+    font-size: 14px;
+    line-height: 21px;
+  }
   .cardNovedadesContainer .cardNovedades {
     width: 100%;
     box-shadow: 0px 5.29059px 11.33697px 0px rgba(162, 182, 212, 0.15);

@@ -103,9 +103,6 @@ footer p {
 .iconContactMail:hover {
   background-color: #ed8b30;
 }
-.iconContactMail img:hover svg g path {
-  background-color: red;
-}
 .iconContactWsp:hover #Vector_2 {
   fill: #fff;
 }
@@ -127,15 +124,91 @@ footer p {
 .iconContactFc:hover {
   background-color: #3b5998;
 }
+.enableInResponsive {
+  display: none;
+}
 
 @media screen and (max-width: 1150px) {
   footer {
-    padding: 0;
+    display: flex;
+    width: 100%;
+    padding: 32px 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  footer p {
+    font-size: 8px;
+    font-weight: 300;
   }
   .topFooter {
     flex-direction: column;
   }
   .topFooter .contactInfo {
     flex-direction: column;
+    gap: 24px;
+  }
+  .socialContact {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactItem {
+    gap: 0;
+  }
+  .contactText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #contactFooter {
+    color: #f0dec2;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+  #pContactFooter {
+    color: #fdfaf6;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+
+  .disableInResponsive {
+    display: none;
+  }
+  .enableInResponsive {
+    display: inline;
+  }
+
+  .iconContact svg g path,
+  .iconContact svg g rect,
+  .iconContact svg g circle {
+    stroke: #fff;
+  }
+  .iconContactWsp #Vector_2 {
+    fill: #fff;
+  }
+  .iconContactWsp {
+    background-color: #00d95f;
+  }
+  .iconContactIg {
+    background: linear-gradient(
+      135deg,
+      #604ee7 0%,
+      #b438b0 29.69%,
+      #f65176 68.23%,
+      #fccc63 100%
+    );
+  }
+  .iconContactFc svg g path {
+    fill: #fff;
+  }
+  .iconContactFc {
+    background-color: #3b5998;
   }
 }
