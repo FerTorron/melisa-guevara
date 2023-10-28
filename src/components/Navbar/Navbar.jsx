@@ -1,10 +1,12 @@
 import './Navbar.css'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [scroll, setScroll] = useState(0);
     const [headerClass, setHeaderClass] = useState('');
-    const [navUlClass, setnavUlClass] = useState('');
+    const [navUlClass, setNavUlClass] = useState('');
+    const [navImgClass, setNavImgClass] = useState('linkImg logoSmall');
     const [navOpen, setNavOpen] = useState(false)
     const menuBtn = () => {
         setNavOpen(!navOpen)
@@ -28,11 +30,11 @@ const Navbar = () => {
         const scrollTop = document.documentElement.scrollTop;
 
         if (scrollTop > 20) {
-            return <img className='logoNavClass logoImg' src="/img/logo/logoMg2.png" alt="Logo de Melisa Guevara Pequeña" />;
+            return <img className='logoNavClass logoImg' src="/img/logo/logoMg2.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
         } else if (windowWidth < 1150) {
-            return <img className='logoImg logoSmall' src="/img/logo/logoCompleto.png" alt="Logo de Melisa Guevara Pequeña" />;
+            return <img className='logoImg logoSmall' src="/img/logo/logoCompleto.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
         } else {
-            return <img className='logoImg' src="/img/logo/logoMg.png" alt="Logo de Melisa Guevara Grande" />;
+            return <img className='logoImg' src="/img/logo/logoMg.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Grande" />;
         }
 
     };
@@ -51,18 +53,26 @@ const Navbar = () => {
 
         if (scrollTop > 20) {
             setHeaderClass('nav-mod');
-            setnavUlClass('ul-nav-mod')
+            setNavUlClass('ul-nav-mod')
+            setNavImgClass('linkImg logoNavClass')
         } else {
             setHeaderClass('');
-            setnavUlClass('')
+            setNavUlClass('')
+            setNavImgClass('linkImg logoSmall')
         }
 
         setScroll(scrollTop);
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <header className={headerClass}>
-            {mostrarImagen()}
+            <Link className={navImgClass} to="/">
+                {mostrarImagen()}
+            </Link>
             <nav className={navOpen ? "navResponsive" : null}>
                 <img src="/img/icons/close.svg" onClick={menuBtn} className='menuBtn' alt="" />
                 <ul className={navUlClass}>

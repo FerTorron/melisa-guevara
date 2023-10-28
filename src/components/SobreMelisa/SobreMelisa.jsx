@@ -1,5 +1,6 @@
 import './SobreMelisa.css'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const SobreMelisa = () => {
@@ -37,6 +38,10 @@ const SobreMelisa = () => {
         }
 
     };
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     return (
         <div id='melisa' className='sobreMelisa'>
             {mostrarImagen()}
@@ -45,7 +50,7 @@ const SobreMelisa = () => {
                 {mostrarImagenResponsive()}
                 <p>¡Hola! Soy Melisa, una mujer apasionada por el mundo de la joyería y comprometida con la sostenibilidad.</p>
                 <p className='txtMelisaResponsive'>Mi misión es convertir lo que antes dañaba nuestra tierra en arte y diseño. Estas creaciones transmiten un mensaje de esperanza y concienciación.</p>
-                <a href="#">CONOCEME</a>
+                <Link to="/sobreMelisa" onClick={scrollToTop}>CONOCEME</Link>
             </div>
         </div>
     )

@@ -1,0 +1,128 @@
+.produccionContainer {
+  margin-top: 114px;
+  padding: 0 229px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.produccionContainer h2 {
+  color: #21242c;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.itemProduccion {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+}
+.itemProduccion .titleItemProduccion h3 {
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #cdb490;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.itemProduccion .infoItemProduccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.itemProduccion .infoItemProduccion .leftInfoItemProduccion {
+  width: 40%;
+}
+.itemProduccion .infoItemProduccion .leftInfoItemProduccion img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+}
+.itemProduccion .infoItemProduccion .rightInfoItemProduccion {
+  display: flex;
+  width: 60%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.itemProduccion .infoItemProduccion .rightInfoItemProduccion p {
+  color: #4c5367;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+  .produccionContainer {
+    padding: 0 17px;
+    margin-top: 50px;
+    gap: 32px;
+  }
+  .produccionContainer h2 {
+    color: #21242c;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+  .itemProduccion {
+    align-items: center;
+    gap: 24px;
+  }
+  .itemProduccion .infoItemProduccion {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .itemProduccion .titleItemProduccion h3 {
+    display: flex;
+    padding: 5.815px 11.63px;
+    align-items: flex-start;
+    gap: 3.634px;
+    border-radius: 17.445px;
+    background: #cdb490;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .itemProduccion .infoItemProduccion .leftInfoItemProduccion {
+    width: 100%;
+  }
+  .itemProduccion .infoItemProduccion .leftInfoItemProduccion img {
+    width: 100%;
+    height: 168.462px;
+    border-radius: 24px;
+  }
+  .itemProduccion .infoItemProduccion .rightInfoItemProduccion {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .itemProduccion .infoItemProduccion .rightInfoItemProduccion p {
+    color: #4c5367;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,67 @@
+.sobreMarcaContainer {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleImgContainer {
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 75px;
+}
+.middleItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+.leftMiddleItem {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.leftMiddleItem p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.rightMiddleItem {
+  width: 50%;
+}
+.rightMiddleItem img {
+  width: 100%;
+  border-radius: 15px;
+}
+.finalBottom {
+  text-align: center;
+  padding: 50px;
+}
+
+.bottomItemContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 90px;
+}
+.topBottomItem p {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 200px;
+}

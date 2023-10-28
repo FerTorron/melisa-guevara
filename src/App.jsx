@@ -4,6 +4,8 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Home from './components/pages/Home'
+import JoyasRecicladas from './components/pages/JoyasRecicladas'
+import Melisa from './components/pages/Melisa'
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            {/* <Route path='/contacto' element={<Contacto />} /> */}
+            <Route path='/joyasRecicladas' element={<JoyasRecicladas />} />
+            <Route path='/sobreMelisa' element={<Melisa />} />
           </Routes>
         </main>
         <Footer />

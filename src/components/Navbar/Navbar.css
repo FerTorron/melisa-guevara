@@ -21,19 +21,29 @@ header {
   z-index: 10;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   transition: all 300ms;
   z-index: 100;
 }
+.linkImg {
+  width: 220px;
+  height: 129px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 header .logoImg {
   position: absolute;
   width: 220px;
   height: 129px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;
+  left: 0;
+  /* left: 50%;
+  transform: translateX(-50%); */
 }
 header nav {
   width: 100%;
@@ -77,12 +87,6 @@ header nav ul li a {
   font-weight: 500;
 }
 
-.logoSmall {
-  width: 235px !important;
-  height: 50px !important;
-  /* left: 57% !important; */
-  /* transform: translateX(-50%) !important; */
-}
 .menuBtn {
   display: none;
   width: 24px;
@@ -91,6 +95,10 @@ header nav ul li a {
 }
 
 @media screen and (max-width: 1150px) {
+  .logoSmall {
+    width: 235px !important;
+    height: 50px !important;
+  }
   .menuBtn {
     display: flex;
   }
