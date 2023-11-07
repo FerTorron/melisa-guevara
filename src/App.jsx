@@ -10,7 +10,7 @@ import Melisa from './components/pages/Melisa'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Navbar />
         <main>
           <Routes>
