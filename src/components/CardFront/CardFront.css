@@ -68,13 +68,13 @@
     left: 50%;
     bottom: -73px;
     gap: 0;
-    transform: translateX(-40%);
+    transform: translateX(-50%);
   }
   .titleCard {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     padding: 13px 45px;
     background: #21242c;
     gap: 10px;
@@ -90,7 +90,7 @@
   }
   .leftCard p {
     padding: 10px 50px;
-    width: 80%;
+    width: 100%;
     color: #21242c;
     text-align: center;
     font-size: 12px;

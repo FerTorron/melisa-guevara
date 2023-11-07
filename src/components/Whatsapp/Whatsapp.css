@@ -12,6 +12,7 @@
   bottom: 30px;
   right: 35px;
   cursor: pointer;
+  z-index: 200;
 }
 .whatsappIcon img {
   width: 100%;
