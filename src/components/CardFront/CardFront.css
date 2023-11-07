@@ -53,66 +53,70 @@
 
 @media screen and (max-width: 1150px) {
   .cardFront {
-    padding: 0;
-    display: flex;
-    width: 100%;
-    height: 150px;
-    padding-left: 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-  }
-  .leftCard {
-    width: 60%;
-    display: flex;
-    padding: 32px 16px;
+    width: 90%;
+    border-radius: 15px;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    flex-shrink: 0;
+    padding: 0;
+    position: relative;
+    overflow: visible;
+    margin-bottom: 50px;
   }
-  .leftCard .titleCard {
+  .leftCard {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -73px;
+    gap: 0;
+    transform: translateX(-40%);
+  }
+  .titleCard {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    width: 80%;
+    padding: 13px 45px;
+    background: #21242c;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   }
-  .leftCard .titleCard h2 {
-    padding: 0;
-    color: #b89460;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-  }
+  .leftCard .titleCard h2,
   .leftCard .titleCard h2 span {
     color: #b89460;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    padding: 0;
   }
   .leftCard p {
+    padding: 10px 50px;
+    width: 80%;
     color: #21242c;
+    text-align: center;
     font-size: 12px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
     line-height: 18px;
-  }
-
-  .rightCard {
-    width: 40%;
-    display: flex;
-    flex: 1 0 0;
-    align-self: stretch;
-  }
-  .rightCard img {
-    object-fit: contain;
-    object-position: center;
-    height: 150px;
+    background: #cdb490;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   }
   .enableResponsive {
     display: inline;
   }
   .disableResponsive {
     display: none;
+  }
+
+  .rightCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightCard img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
   }
 }

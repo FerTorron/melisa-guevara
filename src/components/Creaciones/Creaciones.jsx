@@ -40,7 +40,7 @@ const Creaciones = () => {
                     </div>
                 </div>
             </div>
-            <a href="#">VER MÁS</a>
+            <a href="https://www.instagram.com/melisaguevara_ecojoyas/">VER MÁS</a>
         </div>
     )
 }

@@ -20,7 +20,7 @@ const SobreEmpresa = () => {
                     </div>
                 </div>
 
-                <div className="middleItemContainer">
+                <div className="middleItemContainer reverseMiddleItemContainer">
                     <div className="rightMiddleItem">
                         <img src="/img/maquinaPulsera.png" alt="Una maquina para pulseras" />
                     </div>
@@ -31,14 +31,14 @@ const SobreEmpresa = () => {
 
                 <div className="bottomItemContainer">
                     <div className="topBottomItem">
-                        <p>“Soy una soñadora e idealista convencida de que el diseño y la expresión tienen el poder de transformar la sociedad.”</p>
+                        <p>“La misión es convertir lo que antes dañaba nuestra tierra en arte y diseño. Estas creaciones transmiten un mensaje de esperanza y concienciación.“</p>
                     </div>
-                    <div className="middleItemContainer">
+                    <div className="middleItemContainer reverseMiddleItemContainer">
                         <div className="leftMiddleItem">
                             <p className='finalBottom'><b>Únete a esta emocionante aventura. Cada compra que haces es un paso hacia un futuro más sostenible.</b></p>
                         </div>
                         <div className="rightMiddleItem">
-                            <img src="/img/diarioUno.png" alt="Melisa con pulseras" />
+                            <img src="/img/pulseraSombra.png" alt="Una imagen de una pulsera con sombra" />
                         </div>
                     </div>
                 </div>

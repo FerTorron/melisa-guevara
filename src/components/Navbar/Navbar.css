@@ -121,7 +121,6 @@ header nav ul li a {
     left: -500px;
     background-color: #f0dec2;
     transition: all 300ms ease-out;
-    outline: 200px solid rgba(0, 0, 0, 0.5);
   }
   header nav ul {
     padding: 30px;

@@ -65,3 +65,57 @@
   line-height: 30px;
   padding: 0 200px;
 }
+.reverseMiddleItemContainer {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1150px) {
+  .sobreMarcaContainer {
+    margin-top: 40px;
+  }
+  .middleImgContainer {
+    gap: 50px;
+  }
+  .middleItemContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .leftMiddleItem {
+    width: 100%;
+    text-align: right;
+  }
+  .leftMiddleItem p {
+    color: #21242c;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+  }
+  .rightMiddleItem {
+    width: 100%;
+  }
+  .reverseMiddleItemContainer {
+    flex-direction: column-reverse;
+  }
+
+  .bottomItemContainer {
+    gap: 30px;
+  }
+
+  .topBottomItem p {
+    padding: 0;
+    color: #21242c;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .finalBottom {
+    padding: 0;
+    color: #21242c;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+}

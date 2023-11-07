@@ -100,9 +100,42 @@
 
 @media screen and (max-width: 1150px) {
   .sobreMiContainer {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .topNavContainer {
     padding: 0 1px;
+  }
+
+  .topNavContainer .txtSobreMi p {
+    font-size: 12px;
+  }
+
+  .strongNav {
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .lightNav {
+    font-size: 14px;
+  }
+  .topNavContainer .navItemsContainer {
+    padding: 0 40px;
+  }
+
+  .bottomInfoContainer p {
+    padding: 0 25px;
+    color: #21242c;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .imgMelisa img {
+    width: 141px;
+    height: 134px;
+    flex-shrink: 0;
+  }
+  .rectangleBlue {
+    height: 70px;
+    bottom: -25px;
   }
 }
