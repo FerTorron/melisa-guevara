@@ -9,7 +9,7 @@ const Creaciones = () => {
             </div>
             <div className="containerCreaciones">
                 <div className="itemCreacion">
-                    <img src="/img/products/ethereal.png" alt="" />
+                    <img src="/img/products/ethereal.webp" alt="" />
                     <div className="txtItem">
                         <h4>ETHEREAL</h4>
                         <p>Realizado con cables metálicos y recubiertos</p>
@@ -17,7 +17,7 @@ const Creaciones = () => {
                 </div>
 
                 <div className="itemCreacion">
-                    <img src="/img/products/resilient.png" alt="" />
+                    <img src="/img/products/resilient.webp" alt="" />
                     <div className="txtItem">
                         <h4>RESILIENT</h4>
                         <p>Tejido a mano en cordón redondo, con cables metálicos y mallas</p>
@@ -25,7 +25,7 @@ const Creaciones = () => {
                 </div>
 
                 <div className="itemCreacion">
-                    <img src="/img/products/sahbrinna.png" alt="" />
+                    <img src="/img/products/sahbrinna.webp" alt="" />
                     <div className="txtItem">
                         <h4>SAHBRINNA</h4>
                         <p>Tejidas a mano con cierres en metal de disco duro</p>
@@ -33,7 +33,7 @@ const Creaciones = () => {
                 </div>
 
                 <div className="itemCreacion">
-                    <img src="/img/products/angelha.png" alt="" />
+                    <img src="/img/products/angelha.webp" alt="" />
                     <div className="txtItem">
                         <h4>ANGELHA</h4>
                         <p>Trenzados en cables con cobertura metálica</p>

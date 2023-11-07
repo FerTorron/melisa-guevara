@@ -16,7 +16,7 @@ const SobreMi = () => {
             <div className="bottomInfoContainer">
                 <p>“Soy una soñadora e idealista convencida de que el diseño y la expresión tienen el poder de transformar la sociedad.”</p>
                 <div className="imgMelisa">
-                    <img src="/img/melisa2.png" alt="Melisa guevara" />
+                    <img src="/img/melisa2.webp" alt="Melisa guevara" />
                     <div className='rectangleBlue'></div>
                 </div>
             </div>

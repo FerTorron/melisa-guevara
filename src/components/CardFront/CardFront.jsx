@@ -16,9 +16,9 @@ const CardFront = () => {
     }, []);
     const mostrarImagen = () => {
         if (windowWidth > 1150) {
-            return <img src="/img/melisaCard.png" alt="Melisa" />
+            return <img src="/img/melisaCard.webp" alt="Melisa" />
         } else if (windowWidth < 1150) {
-            return <img src="/img/bannerMelisa.png" alt="Melisa" />
+            return <img src="/img/bannerMelisa.webp" alt="Melisa" />
         }
 
     };

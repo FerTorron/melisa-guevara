@@ -30,11 +30,11 @@ const Navbar = () => {
         const scrollTop = document.documentElement.scrollTop;
 
         if (scrollTop > 20) {
-            return <img className='logoNavClass logoImg' src="/img/logo/logoMg2.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
+            return <img className='logoNavClass logoImg' src="/img/logo/logoMg2.webp" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
         } else if (windowWidth < 1150) {
-            return <img className='logoImg logoSmall' src="/img/logo/logoCompleto.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
+            return <img className='logoImg logoSmall' src="/img/logo/logoCompleto.webp" onClick={scrollToTop} alt="Logo de Melisa Guevara Pequeña" />;
         } else {
-            return <img className='logoImg' src="/img/logo/logoMg.png" onClick={scrollToTop} alt="Logo de Melisa Guevara Grande" />;
+            return <img className='logoImg' src="/img/logo/logoMg.webp" onClick={scrollToTop} alt="Logo de Melisa Guevara Grande" />;
         }
 
     };

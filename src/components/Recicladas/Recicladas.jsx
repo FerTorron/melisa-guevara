@@ -14,7 +14,7 @@ const Recicladas = () => {
                 <Link onClick={scrollToTop} to="/joyasRecicladas">Descubre Más</Link>
             </div>
             <div className="rightReciclada">
-                <img src="/img/cables.png" alt="Cables" />
+                <img src="/img/cables.webp" alt="Cables" />
             </div>
         </div>
     )

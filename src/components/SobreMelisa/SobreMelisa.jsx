@@ -22,7 +22,7 @@ const SobreMelisa = () => {
         const scrollTop = document.documentElement.scrollTop;
 
         if (windowWidth < 1150) {
-            return <img src="/img/melisa.jpg" alt="Una mujer vestida de Blanco" />
+            return <img src="/img/melisa.webp" alt="Una mujer vestida de Blanco" />
         } else {
             return
         }
@@ -32,7 +32,7 @@ const SobreMelisa = () => {
         const scrollTop = document.documentElement.scrollTop;
 
         if (windowWidth > 1150) {
-            return <img src="/img/melisa.jpg" alt="Una mujer vestida de Blanco" />
+            return <img src="/img/melisa.webp" alt="Una mujer vestida de Blanco" />
         } else {
             return
         }

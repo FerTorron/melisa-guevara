@@ -10,7 +10,7 @@ const Produccion = () => {
                 </div>
                 <div className="infoItemProduccion">
                     <div className="leftInfoItemProduccion">
-                        <img src="/img/produccion1.png" alt="Placas de computadora" />
+                        <img src="/img/produccion1.webp" alt="Placas de computadora" />
                     </div>
                     <div className="rightInfoItemProduccion">
                         <p>El proceso se inicia con la obtención de componentes de CPU, discos duros y otros materiales procedentes de residuos electrónicos en desuso. </p>
@@ -25,7 +25,7 @@ const Produccion = () => {
                 </div>
                 <div className="infoItemProduccion">
                     <div className="leftInfoItemProduccion">
-                        <img src="/img/produccion2.png" alt="Cables" />
+                        <img src="/img/produccion2.webp" alt="Cables" />
                     </div>
                     <div className="rightInfoItemProduccion">
                         <p>Los cables que se utilizarán con su recubrimiento se limpian con un paño y detergente. En el caso de las cámaras de bicicleta, son limpiadas con agua, detergente y secadas al sol para finalmente ser esterilizadas con alcohol etílico.</p>
@@ -41,7 +41,7 @@ const Produccion = () => {
                 </div>
                 <div className="infoItemProduccion">
                     <div className="leftInfoItemProduccion">
-                        <img src="/img/produccion3.png" alt="Joyas recicladas" />
+                        <img src="/img/produccion3.webp" alt="Joyas recicladas" />
                     </div>
                     <div className="rightInfoItemProduccion">
                         <p>En este momento, se aplican diferentes técnicas de entrelazados manuales (tejidos orientales, tejidos náuticos, trenzados, etc.), cumpliendo con los parámetros establecidos en el programa de diseño previamente desarrollado: disponibilidad de ese material, terminaciones, calidad, peso, comodidad, etc.</p>
@@ -57,7 +57,7 @@ const Produccion = () => {
                 </div>
                 <div className="infoItemProduccion">
                     <div className="leftInfoItemProduccion">
-                        <img src="/img/produccion4.png" alt="Joyas Recicladas" />
+                        <img src="/img/produccion4.webp" alt="Joyas Recicladas" />
                     </div>
                     <div className="rightInfoItemProduccion">
                         <p>El montaje es el último paso en el cual la pieza se termina. Se llevan a cabo procesos de prensado durante más de 24 horas para asegurar una correcta unión adhesiva. También se realizan pequeñas soldaduras si es necesario, según la pieza.</p>
