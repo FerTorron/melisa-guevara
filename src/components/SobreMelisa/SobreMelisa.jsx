@@ -43,7 +43,7 @@ const SobreMelisa = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     return (
-        <div id='melisa' className='sobreMelisa'>
+        <div className='sobreMelisa'>
             {mostrarImagen()}
             <div className="txtMelisa">
                 <h2>Sobre Melisa Guevara</h2>

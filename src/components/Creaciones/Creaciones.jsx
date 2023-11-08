@@ -2,7 +2,7 @@ import './Creaciones.css'
 
 const Creaciones = () => {
     return (
-        <div id='creaciones' className='creacionesSection'>
+        <div className='creacionesSection'>
             <div className="creacionesTitle">
                 <h3>Exclusivas</h3>
                 <p>Nuestras joyas son únicas y las creamos para ti</p>
@@ -40,7 +40,7 @@ const Creaciones = () => {
                     </div>
                 </div>
             </div>
-            <a href="https://www.instagram.com/melisaguevara_ecojoyas/">VER MÁS</a>
+            <a href="https://www.instagram.com/melisaguevara_ecojoyas/" target="_blank" rel='noreferrer'>VER MÁS</a>
         </div>
     )
 }

@@ -2,11 +2,11 @@ import './Novedades.css'
 
 const Novedades = () => {
     return (
-        <div id='novedades' className='novedadesContainer'>
+        <div className='novedadesContainer'>
             <h2>Novedades</h2>
             <div className="cardNovedadesContainer">
                 <div className="cardNovedades">
-                    <a href="https://universomola.com/universo-mola-fashion-week">
+                    <a target="_blank" rel='noreferrer' href="https://universomola.com/universo-mola-fashion-week">
                         <img src="/img/mola2023.webp" alt="Universo Mola 2023" />
                         <div className="txtNovedades">
                             <span>Evento</span>
@@ -16,7 +16,7 @@ const Novedades = () => {
                 </div>
 
                 <div className="cardNovedades">
-                    <a href="https://mendoza.puntoapunto.com.ar/chacras-de-coria-se-vistio-de-moda-sustentable-y-responsable">
+                    <a target="_blank" rel='noreferrer' href="https://mendoza.puntoapunto.com.ar/chacras-de-coria-se-vistio-de-moda-sustentable-y-responsable">
                         <img src="/img/desfile.webp" alt="Universo Mola 2023" />
                         <div className="txtNovedades">
                             <span>Evento</span>
@@ -26,7 +26,7 @@ const Novedades = () => {
                 </div>
 
                 <div className="cardNovedades">
-                    <a href="https://www.diariouno.com.ar/emprendedores/una-disenadora-mendocina-recicla-cables-fabricar-pulseras-aritos-y-collares-n1225124">
+                    <a target="_blank" rel='noreferrer' href="https://www.diariouno.com.ar/emprendedores/una-disenadora-mendocina-recicla-cables-fabricar-pulseras-aritos-y-collares-n1225124">
                         <img src="/img/diarioUno.webp" alt="Universo Mola 2023" />
                         <div className="txtNovedades">
                             <span>Nota</span>

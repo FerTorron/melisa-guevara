@@ -6,7 +6,7 @@ const Recicladas = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     return (
-        <div id='joyasRecicladas' className="recicladaContainer">
+        <div className="recicladaContainer">
             <div className="leftReciclada">
                 <h3>Joyas Recicladas</h3>
                 <p>Nuestras joyas representan una manifestación de creatividad y sostenibilidad en el mundo de la moda. </p>

@@ -47,7 +47,7 @@ const Footer = () => {
                             </div>
 
                             <div className="contactItem">
-                                <a href="https://wa.me/5492612472520">
+                                <a target="_blank" rel='noreferrer' href="https://wa.me/5492612472520">
                                     <div className="iconContact iconContactWsp">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g id="icon/whatsapp">
@@ -65,7 +65,7 @@ const Footer = () => {
 
                             <hr className='disableInResponsive' />
 
-                            <a href="https://www.instagram.com/melisaguevara_ecojoyas/">
+                            <a target="_blank" rel='noreferrer' href="https://www.instagram.com/melisaguevara_ecojoyas/">
                                 <div className="iconContact iconContactIg">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="icon/instagram">
@@ -77,7 +77,7 @@ const Footer = () => {
                                 </div>
                             </a>
 
-                            <a href="https://www.facebook.com/melisa.guevara.378/">
+                            <a target="_blank" rel='noreferrer' href="https://www.facebook.com/melisa.guevara.378/">
                                 <div className="iconContact iconContactFc">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="icon/facebook">

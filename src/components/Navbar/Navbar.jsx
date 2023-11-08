@@ -81,7 +81,7 @@ const Navbar = () => {
                     <li><a href="/#joyasRecicladas">Joyas Recicladas</a></li>
                     <li><a href="/#melisa">Melisa Guevara</a></li>
                     <li><a href="/#novedades">Novedades</a></li>
-                    <li><a href="/#footer">Contacto</a></li>
+                    <li><a href="/#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <img src="/img/icons/menu.svg" onClick={menuBtn} className='menuBtn' alt="" />

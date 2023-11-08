@@ -11,12 +11,18 @@ const Home = () => {
     return (
         <>
             <Whatsapp />
+            <div id='inicioMelisa'></div>
             <CardFront />
+            <div id='creaciones'></div>
             <Creaciones />
             <ComoComprar />
+            <div id='joyasRecicladas'></div>
             <Recicladas />
+            <div id='melisa'></div>
             <SobreMelisa />
+            <div id='novedades'></div>
             <Novedades />
+            <div id='contacto'></div>
             <Contacto />
         </>
     )

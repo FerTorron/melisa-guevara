@@ -53,8 +53,7 @@
 
 @media screen and (max-width: 1150px) {
   .cardFront {
-    width: 90%;
-    border-radius: 15px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     padding: 0;
@@ -63,7 +62,7 @@
     margin-bottom: 50px;
   }
   .leftCard {
-    width: 100%;
+    width: 80%;
     position: absolute;
     left: 50%;
     bottom: -73px;
@@ -89,7 +88,7 @@
     padding: 0;
   }
   .leftCard p {
-    padding: 10px 50px;
+    padding: 10px 30px;
     width: 100%;
     color: #21242c;
     text-align: center;

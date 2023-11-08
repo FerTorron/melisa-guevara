@@ -23,7 +23,7 @@ const CardFront = () => {
 
     };
     return (
-        <div id='inicioMelisa' className='cardFront'>
+        <div className='cardFront'>
             <div className="leftCard">
                 <div className="titleCard">
                     <h2>Joyeria</h2>
