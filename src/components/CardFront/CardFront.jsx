@@ -23,7 +23,7 @@ const CardFront = () => {
 
     };
     return (
-        <div className='cardFront'>
+        <section id='inicioMelisa' className='cardFront newSection'>
             <div className="leftCard">
                 <div className="titleCard">
                     <h2>Joyeria</h2>
@@ -36,7 +36,7 @@ const CardFront = () => {
                 {mostrarImagen()}
                 {/* <img src="/img/melisaCard.png" alt="Melisa" /> */}
             </div>
-        </div>
+        </section>
     )
 }
 

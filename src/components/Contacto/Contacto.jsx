@@ -2,7 +2,7 @@ import './Contacto.css'
 
 const Contacto = () => {
     return (
-        <div className='contactoContainer'>
+        <section id='contacto' className='contactoContainer newSection'>
             <h2>Contacto</h2>
             <form action="https://formspree.io/f/meqbpzko" method="POST">
                 <input type="text" placeholder='Nombre' name='name' />
@@ -10,7 +10,7 @@ const Contacto = () => {
                 <textarea name="message" placeholder='Mensaje' id="" cols="30" rows="10"></textarea>
                 <button>Enviar</button>
             </form>
-        </div>
+        </section>
     )
 }
 

@@ -6,7 +6,7 @@ const Recicladas = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     return (
-        <div className="recicladaContainer">
+        <section id='joyasRecicladas' className="recicladaContainer newSection">
             <div className="leftReciclada">
                 <h3>Joyas Recicladas</h3>
                 <p>Nuestras joyas representan una manifestación de creatividad y sostenibilidad en el mundo de la moda. </p>
@@ -16,7 +16,7 @@ const Recicladas = () => {
             <div className="rightReciclada">
                 <img src="/img/cables.webp" alt="Cables" />
             </div>
-        </div>
+        </section>
     )
 }
 

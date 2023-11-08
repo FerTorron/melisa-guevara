@@ -43,7 +43,7 @@ const SobreMelisa = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     return (
-        <div className='sobreMelisa'>
+        <section id='melisa' className='sobreMelisa newSection'>
             {mostrarImagen()}
             <div className="txtMelisa">
                 <h2>Sobre Melisa Guevara</h2>
@@ -52,7 +52,7 @@ const SobreMelisa = () => {
                 <p className='txtMelisaResponsive'>Mi misión es convertir lo que antes dañaba nuestra tierra en arte y diseño. Estas creaciones transmiten un mensaje de esperanza y concienciación.</p>
                 <Link to="/sobreMelisa" onClick={scrollToTop}>CONOCEME</Link>
             </div>
-        </div>
+        </section>
     )
 }
 
