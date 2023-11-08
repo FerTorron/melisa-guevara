@@ -2,7 +2,7 @@ import './ComoComprar.css'
 
 const ComoComprar = () => {
     return (
-        <div className='comprarSection'>
+        <section className='comprarSection'>
             <div className="titleComprar">
                 <hr />
                 <h5>¿Cómo Comprar?</h5>
@@ -49,7 +49,7 @@ const ComoComprar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
