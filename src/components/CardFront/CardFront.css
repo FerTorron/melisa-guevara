@@ -54,6 +54,7 @@
 @media screen and (max-width: 1150px) {
   .cardFront {
     width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     padding: 0;

@@ -76,12 +76,12 @@ const Navbar = () => {
             <nav className={navOpen ? "navResponsive" : null}>
                 <img src="/img/icons/close.svg" onClick={menuBtn} className='menuBtn' alt="" />
                 <ul className={navUlClass}>
-                    <li><a href="/#inicioMelisa">Inicio</a></li>
-                    <li><a href="/#creaciones">Creaciones</a></li>
-                    <li><a href="/#joyasRecicladas">Joyas Recicladas</a></li>
-                    <li><a href="/#melisa">Melisa Guevara</a></li>
-                    <li><a href="/#novedades">Novedades</a></li>
-                    <li><a href="/#contacto">Contacto</a></li>
+                    <li onClick={menuBtn}><a href="/#inicioMelisa">Inicio</a></li>
+                    <li onClick={menuBtn}><a href="/#creaciones">Creaciones</a></li>
+                    <li onClick={menuBtn}><a href="/#joyasRecicladas">Joyas Recicladas</a></li>
+                    <li onClick={menuBtn}><a href="/#melisa">Melisa Guevara</a></li>
+                    <li onClick={menuBtn}><a href="/#novedades">Novedades</a></li>
+                    <li onClick={menuBtn}><a href="/#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <img src="/img/icons/menu.svg" onClick={menuBtn} className='menuBtn' alt="" />
